@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('main-content').style.display = 'block';
 
             // Alterar a imagem de fundo
-            document.body.style.backgroundImage = "url('/fundo.jpg')"; // Substitua pelo caminho da nova imagem de fundo
+            document.body.style.backgroundImage = "url('fundo.jpg')"; // Substitua pelo caminho da nova imagem de fundo
         } else {
             alert('Senha incorreta. Tente novamente.');
         }
