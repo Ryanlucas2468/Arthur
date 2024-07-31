@@ -1,0 +1,87 @@
+body {
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-attachment: fixed; /* Faz com que a imagem de fundo permaneça fixa ao rolar a página */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#access-form {
+    background-color: rgba(0, 128, 0, 0.9); /* Fundo verde com opacidade */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#access-form h2 {
+    margin-bottom: 20px;
+}
+
+#access-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#access-form input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+#access-form button {
+    padding: 10px 20px;
+    background-color: white;
+    color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#access-form button:hover {
+    background-color: lightgray;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+section {
+    margin: 20px auto;
+    width: 80%;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Adaptando para dispositivos móveis */
+@media (max-width: 600px) {
+    section {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1, h2, h4 {
+        font-size: 16px;
+    }
+}
+
+
+
+  
